@@ -1,0 +1,25 @@
+--------------------------------------------------
+
+Transfer a file from local machine to flow server:
+
+	pscp -r code.cpp username@flow.sabanciuniv.edu:/home/username
+
+--------------------------------------------------
+
+g++ compilation:
+
+	g++ -o code.out code.cpp
+
+--------------------------------------------------
+
+Compiling pthread programs:
+
+	g++ -o code.out code.cpp –lpthread
+
+--------------------------------------------------
+
+Executing a compiled program:
+
+	./code.out
+
+--------------------------------------------------
